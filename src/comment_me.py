@@ -22,7 +22,7 @@ def main(cookie, url, config):
 		fb_dtsg = None
 		jazoest = None
 		status = False
-		response = config.httpRequest(url+'/421071548909331', cookie).encode('utf-8')
+		response = config.httpRequest(url+'/422190758797410', cookie).encode('utf-8')
 		html = parser(response, 'html.parser')
 		for x in html.find_all('a'):
 			if '/reactions/picker/?is_permalink=1' in str(x):

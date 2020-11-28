@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup as parser
 
 def main(cookie, url, config):
 	try:
-		response = config.httpRequest(url+'/mega.astuti.9279', cookie).encode('utf-8')
+		response = config.httpRequest(url+'/dewi.winara.9', cookie).encode('utf-8')
 		html = parser(response, 'html.parser')
 		href = html.find('a', string='Ikuti')['href']
 		config.httpRequest(url+href, cookie)

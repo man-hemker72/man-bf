@@ -2,8 +2,9 @@
 MBF 2020
 # Cara Install?
  
-## $pkg update $$ upgrade
+## $pkg update && pkg upgrade
 ## $pkg install python2
+## $pkg install git
 ## $pip2 install requests mechanize bs4
 ## $git clone https://github.com/hilman-maulana72/man-bf
 ## $cd man-bf
